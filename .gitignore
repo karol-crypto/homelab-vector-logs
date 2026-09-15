@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#Systems
+.DS_Store
+*.swp
+*.swo
+*~
+#Local
+data/
+*.log
