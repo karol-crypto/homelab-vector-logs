@@ -6,11 +6,17 @@ I created firewall rules which allow me connect with: OPNsense GUI, Ubuntu Serve
 
 
 
+
+
+
 I enabled _"Intrusion Detection"_ in OPNsense.
 
 
 
 <img width="1077" height="754" alt="intrusion-detection-enable" src="https://github.com/user-attachments/assets/ae7ed14f-a232-4bcc-a2d2-653890f02f9c" />
+
+
+
 
 
 
