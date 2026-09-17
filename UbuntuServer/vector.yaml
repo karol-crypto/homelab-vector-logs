@@ -1,0 +1,33 @@
+data_dir: "/var/lib/vector"
+
+sources:
+  opnsense_syslog:
+    type: syslog
+    address: "0.0.0.0:5140"
+    mode: "udp"
+
+sinks:
+  console_debug:
+    type: console
+    inputs:
+      - opnsense_syslog
+    encoding:
+      codec: "json"
+  windows_endpoint:
+    type: "http"
+    inputs:
+      - opnsense_syslog
+    uri: "http://172.16.3.9:8080"
+    encoding:
+      codec: "json"
+    request:
+      timeout_secs: 30
+    healthcheck:
+      enabled: false
+    batch:
+      max_bytes: 1
+      max_events: 1
+
+api:
+  enabled: true
+  address: "172.16.4.6:8686"
