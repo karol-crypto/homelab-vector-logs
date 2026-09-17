@@ -1,6 +1,6 @@
 To install Vector we can use instruction of official website
 
-    [https://vector.dev/docs/setup/installation/](https://vector.dev/docs/setup/installation/)
+    https://vector.dev/docs/setup/installation/
 
 Next step is configuration _vector.yaml_ file and start vector.
 
