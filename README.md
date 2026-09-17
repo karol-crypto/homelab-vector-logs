@@ -15,4 +15,4 @@ For the script to work we should allow http port in Windows Firewall. To do this
 At this stage of the lab devices don't have internet access.
 
 
-Detailed description of the topology you can find --> [here](Topology) 
+Detailed description of the topology you can find [here](Topology) 
