@@ -3,7 +3,7 @@ data_dir: "/var/lib/vector"
 sources:
   opnsense_syslog:
     type: syslog
-    address: "0.0.0.0:5140"
+    address: "172.16.4.6:5140"
     mode: "udp"
 
 sinks:
