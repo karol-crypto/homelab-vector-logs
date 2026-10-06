@@ -6,7 +6,7 @@ Next step is configuration _vector.yaml_ file and start vector.
 
 To chceck our configuration we can use this command:
 
-    vector validate --config /etc/vector/vector.yaml
+    sudo vector validate 
 
 Next:
 
