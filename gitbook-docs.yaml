@@ -3,8 +3,9 @@ site:
   title: VectorHomeLab
   structure:
     - type: space
-      key: homelab-vector-logs
-      title: Homelab Vector Logs
-      path: /
+      key: space-1
+      title: Untitled
+      path: untitled
+      default: true
       content:
-        directory: ./
+        directory: ./untitled
