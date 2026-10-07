@@ -1,6 +1,6 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: Homelab Vector Logs
+  title: VectorHomeLab
   structure:
     - type: space
       key: homelab-vector-logs
